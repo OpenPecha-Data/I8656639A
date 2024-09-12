@@ -3,7 +3,7 @@ ocr_import_info:
   bdrc_scan_id: W1KG3397
   source: bdrc
   ocr_info:
-    timestamp: '2022-08-25T00:00:00Z'
+    timestamp: '2023-02-01T00:00:00Z'
   batch_id: batch-0001
   software_id: norbuketaka
   expected_default_language: bo
@@ -11,8 +11,8 @@ ocr_import_info:
 default_language: bo
 source: https://library.bdrc.io
 initial_creation_type: ocr
-imported: 2023-01-21 16:44:11.671168
-last_modified: 2022-08-25 00:00:00+00:00
+imported: 2024-09-12 14:07:20.777257
+last_modified: 2023-02-01 00:00:00+00:00
 parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W1KG3397
@@ -25,14 +25,6 @@ source_metadata:
   - bo
   author: དགེ་འདུན་གྲུབ་པ།
 bases:
-  I1KG3476:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I1KG3476
-      total_pages: 940
-      volume_number: 2
-      volume_pages_bdrc_intro: 2
-    base_file: I1KG3476.txt
-    order: 1
   I1KG3475:
     source_metadata:
       id: http://purl.bdrc.io/resource/I1KG3475
@@ -40,6 +32,14 @@ bases:
       volume_number: 1
       volume_pages_bdrc_intro: 2
     base_file: I1KG3475.txt
+    order: 1
+  I1KG3476:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG3476
+      total_pages: 940
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG3476.txt
     order: 2
 copyright:
   status: Public domain
